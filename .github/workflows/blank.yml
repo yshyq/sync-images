@@ -38,5 +38,5 @@ jobs:
     - name: 同步镜像
       run: |
         #!/usr/bin/env bash
-        skopeo copy --all docker://registry.k8s.io/kube-apiserver:v1.27.4 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-apiserver:v1.27.4
-    
+        #skopeo copy --all docker://registry.k8s.io/kube-apiserver:v1.27.4 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-apiserver:v1.27.4
+        skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
