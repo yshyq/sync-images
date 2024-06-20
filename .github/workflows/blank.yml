@@ -40,4 +40,4 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy --all docker://registry.k8s.io/kube-apiserver:v1.27.4 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-apiserver:v1.27.4
         #skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
-        skopeo copy --all docker://docker.io/rancher/local-path-provisioner:v0.0.24 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/local-path-provisioner:v0.0.24
+        skopeo copy --all docker://nfs-subdir-external-provisioner:v4.0.2 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
