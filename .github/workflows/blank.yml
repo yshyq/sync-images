@@ -33,7 +33,9 @@ jobs:
         username: ${{ secrets.DOCKER_LOGIN_USER }}
         password: ${{ secrets.DOCKER_LOGIN_PASS }}
         logout: false
-    
+    - name: 登录dockerhub
+      run: docker login --username=yshyq --password=7648@qq.com hub.docker.com
+
     # 使用shell命令批量同步所需的镜像到dockerHub中
     - name: 同步镜像
       run: |
