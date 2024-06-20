@@ -33,8 +33,8 @@ jobs:
         username: ${{ secrets.DOCKER_LOGIN_USER }}
         password: ${{ secrets.DOCKER_LOGIN_PASS }}
         logout: false
-    - name: 登录dockerhub
-      run: docker login --username=yshyq --password=7648@qq.com hub.docker.com
+    # - name: 登录dockerhub
+    #   run: docker login --username=yshyq --password=7648@qq.com hub.docker.com
 
     # 使用shell命令批量同步所需的镜像到dockerHub中
     - name: 同步镜像
@@ -42,4 +42,4 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy --all docker://registry.k8s.io/kube-apiserver:v1.27.4 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-apiserver:v1.27.4
         #skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
-        skopeo copy --all docker://nfs-subdir-external-provisioner:v4.0.2 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
+        skopeo copy --all docker://gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
