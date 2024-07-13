@@ -22,7 +22,7 @@ jobs:
     steps:
     - name: Checkout Repos
       uses: actions/checkout@v3
-      
+
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v2.9.1
     # 设置项目Secrets以提供Docker Hub登录所需的用户名和密码。
@@ -44,4 +44,4 @@ jobs:
         #skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
         #skopeo copy --all docker://gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
         #skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio/minio:RELEASE.2023-10-16
-        skopeo copy --all docker://emqx/emqx:5.1.0 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio/emqx:5.1.0
+        skopeo copy --all docker://google/cadvisor:latest docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/google/cadvisor:latest
