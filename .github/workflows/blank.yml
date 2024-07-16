@@ -44,4 +44,4 @@ jobs:
         #skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
         #skopeo copy --all docker://gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
         skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio/minio:RELEASE.2023-10-16
-        # skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
+        # skopeo copy --all docker://docker.io/minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
