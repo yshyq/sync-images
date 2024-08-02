@@ -45,3 +45,8 @@ jobs:
         #skopeo copy --all docker://gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
         # skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio/minio:RELEASE.2023-10-16
         skopeo copy --all docker://docker.io/anjia0532/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1
+        skopeo copy --all docker://docker.io/grafana/promtail:2.8.3 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-promtail:2.8.3
+
+        skopeo copy --all docker://grafana/grafana:9.3.16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.3.16
+        # skopeo copy --all docker://docker.io/grafana/promtail:2.8.3 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-promtail:2.8.3
+        skopeo copy --all docker://grafana/loki:2.6.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-loki:2.6.1
