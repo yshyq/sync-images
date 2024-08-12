@@ -54,6 +54,6 @@ jobs:
 
         # skopeo copy --all docker://docker.io/flannel/flannel:v0.25.5 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.25.5
         # skopeo copy --all docker://docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.5.1-flannel1
-        docker pull docker://docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1
-        docker tag  docker://docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.5.1-flannel1
+        docker pull docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1
+        docker tag  docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.5.1-flannel1
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.5.1-flannel1
