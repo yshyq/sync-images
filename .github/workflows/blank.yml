@@ -59,4 +59,6 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.5.1-flannel1
 
 
-        skopeo copy --all docker://nginx:1.9.14 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nginx:1.9.14
+        skopeo copy --all docker://docker:27.1.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/docker:27.1.1
+
+
