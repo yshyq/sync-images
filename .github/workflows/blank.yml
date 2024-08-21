@@ -69,7 +69,7 @@ jobs:
 
         docker pull postgres:14
 
-        docker tag  docker:27.1.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
+        docker tag  postgres:14 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
 
 
