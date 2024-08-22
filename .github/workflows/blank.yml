@@ -43,7 +43,7 @@ jobs:
         #skopeo copy --all docker://registry.k8s.io/kube-apiserver:v1.27.4 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-apiserver:v1.27.4
         #skopeo copy --all docker://node:18-alpine3.20 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:18-alpine3.20
         #skopeo copy --all docker://gcr.io/k8s-staging-sig-storage/nfs-subdir-external-provisioner:v4.0.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
-        # skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio/minio:RELEASE.2023-10-16
+        # skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-10-16
         # skopeo copy --all docker://docker.io/anjia0532/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1
         # skopeo copy --all docker://docker.io/grafana/promtail:2.8.3 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-promtail:2.8.3
 
@@ -67,9 +67,10 @@ jobs:
 
 
 
-        docker pull postgres:14
+        # docker pull postgres:14
 
-        docker tag  postgres:14 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
+        # docker tag  postgres:14 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
 
+        skopeo copy --all docker://minio/minio:RELEASE.2023-10-16 docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-10-16
 
