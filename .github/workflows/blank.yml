@@ -72,5 +72,5 @@ jobs:
         # docker tag  postgres:14 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
 
-        skopeo copy --all docker://node:16.14.2-alpine docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:16.14.2-alpine
+        skopeo copy --all docker://redis:7.0-bullseye docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:7.0-bullseye
 
