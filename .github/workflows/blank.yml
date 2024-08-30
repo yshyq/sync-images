@@ -72,13 +72,13 @@ jobs:
         # docker tag  postgres:14 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14
 
-        skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
+        # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
-        skopeo copy --all docker://core:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/core:v4.1.0-ce
+        # skopeo copy --all docker://core:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/core:v4.1.0-ce
 
-        skopeo copy --all docker://koko:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/koko:v4.1.0-ce
+        # skopeo copy --all docker://koko:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/koko:v4.1.0-ce
 
-        skopeo copy --all docker://lion:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/lion:v4.1.0-ce
+        # skopeo copy --all docker://lion:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/lion:v4.1.0-ce
 
         skopeo copy --all docker://postgres:16.3-bullseye docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:16.3-bullseye
 
