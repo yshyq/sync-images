@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull docker.io/library/busybox:1.30
-        docker tag  docker.io/library/busybox:1.30 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.30
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.30
+        docker pull docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+        docker tag  docker.elastic.co/elasticsearch/elasticsearch:7.6.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/elasticsearch:7.6.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/elasticsearch:7.6.2
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
