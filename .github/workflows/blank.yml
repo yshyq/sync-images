@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull golang:alpine
-        docker tag  golang:alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/golang:alpine
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/golang:alpine
+        docker pull docker.io/library/busybox:1.30
+        docker tag  docker.io/library/busybox:1.30 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.30
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.30
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
