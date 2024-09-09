@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull nginx:1.25.4
-        docker tag  nginx:1.25.4    registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nginx:1.25.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nginx:1.25.4
+        docker pull alpine
+        docker tag  alpine    registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
