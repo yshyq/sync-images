@@ -68,8 +68,8 @@ jobs:
 
 
         docker pull easzlab/kubeasz-sys-pkg:1.0.0_centos_7
-        docker tag  easzlab/kubeasz-sys-pkg:1.0.0_centos_7   registry.cn-hangzhou.aliyuncs.com/mytest_docker123/easzlab/kubeasz-sys-pkg:1.0.0_centos_7
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/easzlab/kubeasz-sys-pkg:1.0.0_centos_7
+        docker tag  easzlab/kubeasz-sys-pkg:1.0.0_centos_7   registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:1.0.0_centos_7
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:1.0.0_centos_7
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
