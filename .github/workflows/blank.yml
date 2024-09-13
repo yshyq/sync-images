@@ -67,29 +67,11 @@ jobs:
 
 
 
-        docker pull coredns/coredns:1.11.1
-        docker tag  coredns/coredns:1.11.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.11.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.11.1
+        docker pull easzlab/harbor-offline:v2.6.4
+        docker tag  easzlab/harbor-offline:v2.6.4  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.4
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.4
 
-        docker pull easzlab/k8s-dns-node-cache:1.22.23
-        docker tag  easzlab/k8s-dns-node-cache:1.22.23  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.23
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.23
 
-        docker pull kubernetesui/dashboard:v2.7.0
-        docker tag  kubernetesui/dashboard:v2.7.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
-
-        docker pull kubernetesui/metrics-scraper:v1.0.8
-        docker tag  kubernetesui/metrics-scraper:v1.0.8  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
-
-        docker pull easzlab/metrics-server:v0.6.4
-        docker tag  easzlab/metrics-server:v0.6.4  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.6.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.6.4
-
-        docker pull easzlab/pause:3.9
-        docker tag  easzlab/pause:3.9  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pause:3.9
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pause:3.9
 
 
 
