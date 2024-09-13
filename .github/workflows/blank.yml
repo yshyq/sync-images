@@ -67,9 +67,13 @@ jobs:
 
 
 
-        docker pull calico/cni:v3.24.6
-        docker tag  calico/cni:v3.24.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.6
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.6
+        docker pull calico/kube-controllers:v3.24.6
+        docker tag  calico/kube-controllers:v3.24.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.6
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.6
+
+        docker pull calico/node:v3.24.6
+        docker tag  calico/node:v3.24.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.6
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.6
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
