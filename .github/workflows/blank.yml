@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull easzlab/harbor-offline:v2.6.4
-        docker tag  easzlab/harbor-offline:v2.6.4  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.4
+        docker pull easzlab/kubeasz:3.6.2
+        docker tag   easzlab/kubeasz:3.6.2  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz:3.6.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz:3.6.2
 
 
 
