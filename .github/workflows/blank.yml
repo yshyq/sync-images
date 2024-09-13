@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull easzlab/kubeasz-k8s-bin:v1.28.0
-        docker tag  easzlab/kubeasz-k8s-bin:v1.28.0   registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.28.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.28.0
+        docker pull easzlab/kubeasz-ext-bin:1.8.0
+        docker tag  easzlab/kubeasz-ext-bin:1.8.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.8.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.8.0
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
