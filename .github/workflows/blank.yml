@@ -67,43 +67,69 @@ jobs:
 
 
 
-        docker pull easzlab/kube-state-metrics:v2.8.2
-        docker tag   easzlab/kube-state-metrics:v2.8.2  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.8.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.8.2
-
-        docker pull easzlab/kube-webhook-certgen:v1.5.1
-        docker tag   easzlab/kube-webhook-certgen:v1.5.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.5.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.5.1
-
-        docker pull grafana/grafana:9.4.7
-        docker tag   grafana/grafana:9.4.7  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.4.7 
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.4.7 
-
-        docker pull quay.io/kiwigrid/k8s-sidecar:1.22.0
-        docker tag   quay.io/kiwigrid/k8s-sidecar:1.22.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.22.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.22.0 
-
-        docker pull quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0
-        docker tag   quay.io/prometheus-operator/prometheus-config-reloader:v0.63.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.63.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.63.0
-
-        docker pull quay.io/prometheus-operator/prometheus-operator:v0.63.0
-        docker tag   quay.io/prometheus-operator/prometheus-operator:v0.63.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.63.0 
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.63.0 
+        docker pull docker.io/anjia0532/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1
+        docker tag   docker.io/anjia0532/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/google-containers.ingress-nginx.kube-webhook-certgen:v1.1.1
 
         docker pull quay.io/prometheus/alertmanager:v0.25.0
         docker tag   quay.io/prometheus/alertmanager:v0.25.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.25.0
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.25.0
 
+        docker pull quay.io/prometheus-operator/prometheus-config-reloader:v0.62.0
+        docker tag   quay.io/prometheus-operator/prometheus-config-reloader:v0.62.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.62.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.62.0
+
+        docker pull grafana/grafana:9.3.16
+        docker tag   grafana/grafana:9.3.16  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.3.16
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.3.16
+
+        docker pull quay.io/brancz/kube-rbac-proxy:v0.14.0
+        docker tag   quay.io/brancz/kube-rbac-proxy:v0.14.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+
+        docker pull grafana/loki:2.6.1
+        docker tag   grafana/loki:2.6.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/loki:2.6.1 
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/loki:2.6.1 
+
+        docker pull docker.io/grafana/promtail:2.8.3
+        docker tag   docker.io/grafana/promtail:2.8.3  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/promtail:2.8.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/promtail:2.8.3
+
         docker pull quay.io/prometheus/node-exporter:v1.5.0
         docker tag   quay.io/prometheus/node-exporter:v1.5.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.5.0
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.5.0
 
-        docker pull quay.io/prometheus/prometheus:v2.42.0
-        docker tag   quay.io/prometheus/prometheus:v2.42.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.42.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.42.0
+        docker pull quay.io/brancz/kube-rbac-proxy:v0.14.0
+        docker tag   quay.io/brancz/kube-rbac-proxy:v0.14.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
 
 
+        docker pull quay.io/prometheus/prometheus:v2.41.0
+        docker tag   quay.io/prometheus/prometheus:v2.41.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.41.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.41.0
+
+
+        docker pull quay.io/prometheus-operator/prometheus-config-reloader:v0.62.0
+        docker tag  quay.io/prometheus-operator/prometheus-config-reloader:v0.62.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.62.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.62.0
+
+
+  
+        docker pull quay.io/prometheus-operator/prometheus-operator:v0.62.0
+        docker tag  quay.io/prometheus-operator/prometheus-operator:v0.62.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.62.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.62.0
+
+
+  
+        docker pull quay.io/brancz/kube-rbac-proxy:v0.14.0
+        docker tag  quay.io/brancz/kube-rbac-proxy:v0.14.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+
+          docker pull quay.io/brancz/kube-rbac-proxy:v0.14.0
+        docker tag  quay.io/brancz/kube-rbac-proxy:v0.14.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-rbac-proxy:v0.14.0
+
+        
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
         # skopeo copy --all docker://core:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/core:v4.1.0-ce
