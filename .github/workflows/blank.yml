@@ -67,11 +67,13 @@ jobs:
 
 
 
-        docker pull   registry.k8s.io/ingress-nginx/controller:v1.9.6@sha256:1405cc613bd95b2c6edd8b2a152510ae91c7e62aea4698500d23b2145960ab9c
-        docker tag  registry.k8s.io/ingress-nginx/controller:v1.9.6@sha256:1405cc613bd95b2c6edd8b2a152510ae91c7e62aea4698500d23b2145960ab9c  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/controller:v1.9.6
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/controller:v1.9.6
+        docker pull   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084
+        docker tag  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
 
-
+        # docker pull  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084
+        # docker tag  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
     
 
 
