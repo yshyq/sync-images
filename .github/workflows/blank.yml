@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull  postgres:14.13-alpine3.20
-        docker tag  postgres:14.13-alpine3.20  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14.13-alpine3.20
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:14.13-alpine3.20
+        docker pull   registry.k8s.io/ingress-nginx/controller:v1.9.6@sha256:1405cc613bd95b2c6edd8b2a152510ae91c7e62aea4698500d23b2145960ab9c
+        docker tag  registry.k8s.io/ingress-nginx/controller:v1.9.6@sha256:1405cc613bd95b2c6edd8b2a152510ae91c7e62aea4698500d23b2145960ab9c  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/controller:v1.9.6
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/controller:v1.9.6
 
 
     
