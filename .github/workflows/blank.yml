@@ -67,9 +67,9 @@ jobs:
 
 
 
-        docker pull  httpd
-        docker tag  httpd registry.cn-hangzhou.aliyuncs.com/mytest_docker123/httpd:latest
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/httpd:latest
+        docker pull  sigoden/dufs 
+        docker tag sigoden/dufs  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dufs:file
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dufs:file
 
         # docker pull  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084
         # docker tag  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
