@@ -67,27 +67,11 @@ jobs:
 
 
 
-        docker pull  docker.io/kubernetesui/dashboard-api:1.9.0
-        docker tag docker.io/kubernetesui/dashboard-api:1.9.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-api:1.9.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-api:1.9.0
-
-        docker pull  docker.io/kubernetesui/dashboard-auth:1.2.0
-        docker tag docker.io/kubernetesui/dashboard-auth:1.2.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-auth:1.2.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-auth:1.2.0
-
-        docker pull  kong:3.6
-        docker tag kong:3.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kong:3.6
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kong:3.6
+        docker pull  mysql:8.0
+        docker tag mysql:8.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0
 
 
-        docker pull  docker.io/kubernetesui/dashboard-metrics-scraper:1.2.0
-        docker tag docker.io/kubernetesui/dashboard-metrics-scraper:1.2.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-metrics-scraper:1.2.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-metrics-scraper:1.2.0
-
-        docker pull  docker.io/kubernetesui/dashboard-web:1.5.0
-        docker tag docker.io/kubernetesui/dashboard-web:1.5.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-web:1.5.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/dashboard-web:1.5.0
-        
 
         # docker pull  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084
         # docker tag  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
