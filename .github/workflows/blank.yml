@@ -66,10 +66,54 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-
-        docker pull  mysql:8.0
-        docker tag mysql:8.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0
+        docker pull easzlab/kubeasz-k8s-bin:v1.25.9
+        docker tag easzlab/kubeasz-k8s-bin:v1.25.9 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.25.9
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.25.9
+        
+        docker pull easzlab/kubeasz-ext-bin:1.7.1
+        docker tag easzlab/kubeasz-ext-bin:1.7.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.7.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.7.1
+        
+        docker pull easzlab/kubeasz-sys-pkg:0.5.2
+        docker tag easzlab/kubeasz-sys-pkg:0.5.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:0.5.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:0.5.2
+        
+        docker pull easzlab/harbor-offline:v2.6.3
+        docker tag easzlab/harbor-offline:v2.6.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.3
+        
+        docker pull calico/cni:v3.24.5
+        docker tag calico/cni:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.5
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.5
+        
+        docker pull calico/kube-controllers:v3.24.5
+        docker tag calico/kube-controllers:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.5
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.5
+        
+        docker pull calico/node:v3.24.5
+        docker tag calico/node:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.5
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.5
+        
+        docker pull coredns/coredns:1.9.3
+        docker tag coredns/coredns:1.9.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.9.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.9.3
+        
+        
+        docker pull easzlab/k8s-dns-node-cache:1.22.13
+        docker tag easzlab/k8s-dns-node-cache:1.22.13 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.13
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.13
+        
+        docker pull kubernetesui/dashboard:v2.7.0
+        docker tag kubernetesui/dashboard:v2.7.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
+        
+        docker pull kubernetesui/metrics-scraper:v1.0.8
+        docker tag kubernetesui/metrics-scraper:v1.0.8 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
+        
+        docker pull easzlab/metrics-server:v0.5.2
+        docker tag easzlab/metrics-server:v0.5.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.5.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.5.2
 
 
 
