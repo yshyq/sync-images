@@ -134,9 +134,7 @@ jobs:
         docker tag easzlab/nfs-subdir-external-provisioner:v4.0.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
 
-        docker pull cilium/cilium:1.12.4
-        docker tag cilium/cilium:1.12.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cilium:1.12.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cilium:1.12.4
+   
 
         docker pull cilium/operator-generic:1.12.4
         docker tag cilium/operator-generic:1.12.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cilium-operator-generic:1.12.4
