@@ -147,7 +147,7 @@ jobs:
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine-curl:v7.85.0
 
         docker pull easzlab/kube-state-metrics:v2.5.0
-        docker tag easzlab/kube-state-metrics:v2.5.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123kube-state-metrics:v2.5.0
+        docker tag easzlab/kube-state-metrics:v2.5.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.5.0
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.5.0
 
         docker pull easzlab/kube-webhook-certgen:v1.2.0 
