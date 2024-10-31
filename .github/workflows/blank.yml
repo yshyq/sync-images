@@ -116,6 +116,43 @@ jobs:
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.5.2
 
 
+        docker pull easzlab/kube-webhook-certgen:v1.2.0 
+        docker tag easzlab/kube-webhook-certgen:v1.2.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.2.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.2.0
+
+        docker pull grafana/grafana:9.0.5
+        docker tag grafana/grafana:9.0.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.0.5
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.0.5
+
+        docker pull quay.io/kiwigrid/k8s-sidecar:1.19.2
+        docker tag quay.io/kiwigrid/k8s-sidecar:1.19.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.19.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.19.2
+
+        docker pull quay.io/prometheus-operator/prometheus-config-reloader:v0.58.0 
+        docker tag quay.io/prometheus-operator/prometheus-config-reloader:v0.58.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.58.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.58.0
+
+        docker pull quay.io/prometheus-operator/prometheus-operator:v0.58.0 
+        docker tag quay.io/prometheus-operator/prometheus-operator:v0.58.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.58.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.58.0
+
+        docker pull quay.io/prometheus/alertmanager:v0.24.0 
+        docker tag  quay.io/prometheus/alertmanager:v0.24.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.24.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.24.0
+
+        docker pull quay.io/prometheus/node-exporter:v1.3.1 
+        docker tag quay.io/prometheus/node-exporter:v1.3.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.3.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.3.1
+
+        docker pull quay.io/prometheus/prometheus:v2.37.0 
+        docker tag quay.io/prometheus/prometheus:v2.37.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.37.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.37.0
+
+        docker pull registry:2
+        docker tag registry:2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
+
+
 
         # docker pull  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084
         # docker tag  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231226-1a7112e06@sha256:25d6a5f11211cc5c3f9f2bf552b585374af287b4debf693cacbe2da47daa5084 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v2023122
