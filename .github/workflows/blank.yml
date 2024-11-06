@@ -70,121 +70,14 @@ jobs:
         # docker tag easzlab/kubeasz-k8s-bin:v1.25.9 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.25.9
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-k8s-bin:v1.25.9
         
-        # docker pull easzlab/kubeasz-ext-bin:1.7.1
-        # docker tag easzlab/kubeasz-ext-bin:1.7.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.7.1
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-ext-bin:1.7.1
-        
-        # docker pull easzlab/kubeasz-sys-pkg:0.5.2
-        # docker tag easzlab/kubeasz-sys-pkg:0.5.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:0.5.2
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:0.5.2
-        
-        # docker pull easzlab/harbor-offline:v2.6.3
-        # docker tag easzlab/harbor-offline:v2.6.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.3
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-offline:v2.6.3
-        
-        # docker pull calico/cni:v3.24.5
-        # docker tag calico/cni:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.5
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.5
-        
-        # docker pull calico/kube-controllers:v3.24.5
-        # docker tag calico/kube-controllers:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.5
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.24.5
-        
-        # docker pull calico/node:v3.24.5
-        # docker tag calico/node:v3.24.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.5
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.24.5
-        
-        # docker pull coredns/coredns:1.9.3
-        # docker tag coredns/coredns:1.9.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.9.3
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.9.3
-        
-        
-        # docker pull easzlab/k8s-dns-node-cache:1.22.13
-        # docker tag easzlab/k8s-dns-node-cache:1.22.13 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.13
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-dns-node-cache:1.22.13
-        
-        # docker pull kubernetesui/dashboard:v2.7.0
-        # docker tag kubernetesui/dashboard:v2.7.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-dashboard:v2.7.0
-        
-        # docker pull kubernetesui/metrics-scraper:v1.0.8
-        # docker tag kubernetesui/metrics-scraper:v1.0.8 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubernetesui-metrics-scraper:v1.0.8
-        
-        # docker pull easzlab/metrics-server:v0.5.2
-        # docker tag easzlab/metrics-server:v0.5.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.5.2
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.5.2
-
-
-
-
-        # docker pull easzlab/kubeasz:3.4.6
-        # docker tag easzlab/kubeasz:3.4.6 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz:3.4.6
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz:3.4.6
-        
-        # docker pull rancher/mirrored-flannelcni-flannel:v0.19.2
-        # docker tag rancher/mirrored-flannelcni-flannel:v0.19.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mirrored-flannelcni-flannel:v0.19.2
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mirrored-flannelcni-flannel:v0.19.2
-
-        # docker pull rancher/mirrored-flannelcni-flannel-cni-plugin:v1.1.0 
-        # docker tag rancher/mirrored-flannelcni-flannel-cni-plugin:v1.1.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mirrored-flannelcni-flannel-cni-plugin:v1.1.0 
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mirrored-flannelcni-flannel-cni-plugin:v1.1.0 
-
-        # docker pull easzlab/nfs-subdir-external-provisioner:v4.0.2
-        # docker tag easzlab/nfs-subdir-external-provisioner:v4.0.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nfs-subdir-external-provisioner:v4.0.2
-
+      
    
 
        
 
-        # docker pull easzlab/json-mock:v1.3.0
-        # docker tag easzlab/json-mock:v1.3.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/json-mock:v1.3.0
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/json-mock:v1.3.0
-
-        # docker pull easzlab/alpine-curl:v7.85.0
-        # docker tag easzlab/alpine-curl:v7.85.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine-curl:v7.85.0
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine-curl:v7.85.0
-
-        docker pull easzlab/kube-state-metrics:v2.5.0
-        docker tag easzlab/kube-state-metrics:v2.5.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.5.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-state-metrics:v2.5.0
-
-        docker pull easzlab/kube-webhook-certgen:v1.2.0 
-        docker tag easzlab/kube-webhook-certgen:v1.2.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.2.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-webhook-certgen:v1.2.0
-
-        docker pull grafana/grafana:9.0.5
-        docker tag grafana/grafana:9.0.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.0.5
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:9.0.5
-
-        docker pull quay.io/kiwigrid/k8s-sidecar:1.19.2
-        docker tag quay.io/kiwigrid/k8s-sidecar:1.19.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.19.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/k8s-sidecar:1.19.2
-
-        docker pull quay.io/prometheus-operator/prometheus-config-reloader:v0.58.0 
-        docker tag quay.io/prometheus-operator/prometheus-config-reloader:v0.58.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.58.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-config-reloader:v0.58.0
-
-        docker pull quay.io/prometheus-operator/prometheus-operator:v0.58.0 
-        docker tag quay.io/prometheus-operator/prometheus-operator:v0.58.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.58.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus-operator:v0.58.0
-
-        docker pull quay.io/prometheus/alertmanager:v0.24.0 
-        docker tag  quay.io/prometheus/alertmanager:v0.24.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.24.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alertmanager:v0.24.0
-
-        docker pull quay.io/prometheus/node-exporter:v1.3.1 
-        docker tag quay.io/prometheus/node-exporter:v1.3.1  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.3.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node-exporter:v1.3.1
-
-        docker pull quay.io/prometheus/prometheus:v2.37.0 
-        docker tag quay.io/prometheus/prometheus:v2.37.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.37.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/prometheus:v2.37.0
-
-        docker pull registry:2
-        docker tag registry:2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry:2
+        docker pull redis/redis:6.2.4
+        docker tag redis/redis:6.2.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.4
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.4
 
 
     
