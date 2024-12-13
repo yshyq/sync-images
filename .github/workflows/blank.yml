@@ -76,8 +76,8 @@ jobs:
        
 
         docker pull truevoly/oracle-12c
-        docker tag truevoly/oracle-12c registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c
+        docker tag truevoly/oracle-12c registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle:12c
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle:12c
 
 
     
