@@ -75,9 +75,9 @@ jobs:
 
        
 
-        docker pull redis:6.2.4
-        docker tag redis:6.2.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.4
+        docker pull truevoly/oracle-12c
+        docker tag truevoly/oracle-12c registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c
 
 
     
