@@ -76,9 +76,9 @@ jobs:
        
         
 
-        docker pull luctor/oracle-12c
-        docker tag luctor/oracle-12c registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c:v1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c:v1
+        docker pull liuxincuit/oracle-12c
+        docker tag liuxincuit/oracle-12c registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c:v2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oracle-12c:v2
 
 
     
