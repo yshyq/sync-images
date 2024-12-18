@@ -85,16 +85,16 @@ jobs:
         docker tag docker.io/calico/node:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
 
-        docker pull docker.io/calico/node:v3.25.1
-        docker tag docker.io/calico/node:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
+        # docker pull docker.io/calico/node:v3.25.1
+        # docker tag docker.io/calico/node:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
 
         docker pull docker.io/calico/kube-controllers:v3.25.1
         docker tag docker.io/calico/kube-controllers:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.25.1
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.25.1
 
         docker pull coredns/coredns:1.10.1
-        docker tagcoredns/coredns:1.10.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.10.1
+        docker tag coredns/coredns:1.10.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.10.1
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.10.1
 
 
