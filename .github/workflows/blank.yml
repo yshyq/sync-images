@@ -76,42 +76,22 @@ jobs:
        
         
 
-        docker pull docker.io/calico/cni:v3.28.1
-        docker tag docker.io/calico/cni:v3.28.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.28.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.28.1
+        docker pull docker.io/calico/cni:v3.25.1
+        docker tag docker.io/calico/cni:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.25.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.25.1
 
 
-        docker pull docker.io/calico/kube-controllers:v3.28.1
-        docker tag docker.io/calico/kube-controllers:v3.28.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.28.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.28.1
+        docker pull docker.io/calico/node:v3.25.1
+        docker tag docker.io/calico/node:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
 
-        docker pull docker.io/calico/node:v3.28.1
-        docker tag docker.io/calico/node:v3.28.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.28.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.28.1
+        docker pull docker.io/calico/kube-controllers:v3.25.1
+        docker tag docker.io/calico/kube-controllers:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-controllers:v3.25.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-controllers:v3.25.1
 
-        docker pull docker.io/cdkbot/hostpath-provisioner:1.5.0
-        docker tag docker.io/cdkbot/hostpath-provisioner:1.5.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/hostpath-provisioner:1.5.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/hostpath-provisioner:1.5.0
+ 
 
-        docker pull docker.io/coredns/coredns:1.10.1
-        docker tag docker.io/coredns/coredns:1.10.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.10.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/coredns:1.10.1
 
-        docker pull docker.io/library/busybox:1.28.4
-        docker tag docker.io/library/busybox:1.28.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.28.4
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/busybox:1.28.4
-
-        docker pull registry.k8s.io/ingress-nginx/controller:v1.11.2
-        docker tag registry.k8s.io/ingress-nginx/controller:v1.11.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ingress-controller:v1.11.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ingress-controller:v1.11.2
-        
-        docker pull registry.k8s.io/metrics-server/metrics-server:v0.6.3
-        docker tag registry.k8s.io/metrics-server/metrics-server:v0.6.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.6.3
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/metrics-server:v0.6.3
-
-        docker pull registry.k8s.io/pause:3.10
-        docker tag registry.k8s.io/pause:3.10 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pause:3.10 
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pause:3.10 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
