@@ -89,7 +89,7 @@ jobs:
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-csi:v3.28.2
 
         docker pull docker.io/calico/node-driver-registrar:v3.28.2
-        docker tagdocker.io/calico/node-driver-registrar:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node-driver-registrar:v3.28.2
+        docker tag docker.io/calico/node-driver-registrar:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node-driver-registrar:v3.28.2
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node-driver-registrar:v3.28.2
 
         docker pull docker.io/calico/node:v3.28.2
