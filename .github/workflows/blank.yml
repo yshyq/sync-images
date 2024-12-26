@@ -76,9 +76,9 @@ jobs:
        
         
 
-        docker pull docker.io/calico/kube-controllers:v3.28.2
-        docker tag docker.io/calico/kube-controllers:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.28.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-kube-controllers:v3.28.2
+        docker pull docker.io/calico/apiserver:v3.28.2
+        docker tag docker.io/calico/apiserver:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-apiserver:v3.28.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-apiserver:v3.28.2
 
 
 
