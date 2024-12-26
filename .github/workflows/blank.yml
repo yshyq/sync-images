@@ -76,11 +76,17 @@ jobs:
        
         
 
+        docker pull docker.io/calico/typha:v3.28.2
+        docker tag docker.io/calico/typha:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-typha:v3.28.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-typha:v3.28.2
+
         docker pull docker.io/calico/pod2daemon-flexvol:v3.28.2
         docker tag docker.io/calico/pod2daemon-flexvol:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
 
-
+        docker pull docker.io/calico/pod2daemon-flexvol:v3.28.2
+        docker tag docker.io/calico/pod2daemon-flexvol:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
 
 
 
