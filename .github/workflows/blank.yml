@@ -76,20 +76,12 @@ jobs:
        
         
 
-        docker pull docker.io/calico/cni:v3.25.1
-        docker tag docker.io/calico/cni:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.25.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.25.1
+        docker pull docker.io/calico/pod2daemon-flexvol:v3.28.2
+        docker tag docker.io/calico/pod2daemon-flexvol:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-pod2daemon-flexvol:v3.28.2
 
 
-        docker pull docker.io/calico/node:v3.25.1
-        docker tag docker.io/calico/node:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.25.1
 
-        docker pull docker.io/calico/kube-controllers:v3.25.1
-        docker tag docker.io/calico/kube-controllers:v3.25.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-controllers:v3.25.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kube-controllers:v3.25.1
-
- 
 
 
 
