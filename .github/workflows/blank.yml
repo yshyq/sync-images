@@ -76,9 +76,9 @@ jobs:
        
         
 
-        docker pull docker.io/calico/apiserver:v3.28.2
-        docker tag docker.io/calico/apiserver:v3.28.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-apiserver:v3.28.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-apiserver:v3.28.2
+        docker pull  easzlab/kubeasz-sys-pkg:1.0.1_centos_7
+        docker tag easzlab/kubeasz-sys-pkg:1.0.1_centos_7 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:1.0.1_centos_7
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kubeasz-sys-pkg:1.0.1_centos_7
 
 
 
