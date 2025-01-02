@@ -74,12 +74,15 @@ jobs:
    
 
        
-        
 
-        docker pull  izakmarais/grafana-reporter
-        docker tag izakmarais/grafana-reporter registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-reporter
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-reporter
 
+        docker pull  grafana/grafana-image-renderer:latest
+        docker tag grafana/grafana-image-renderer:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-image-renderer:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-image-renderer:latest
+
+        docker pull  grafana/grafana:latest
+        docker tag grafana/grafana:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:latest
 
 
 
