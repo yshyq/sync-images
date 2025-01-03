@@ -76,13 +76,13 @@ jobs:
        
 
 
-        docker pull  grafana/grafana-image-renderer:latest
-        docker tag grafana/grafana-image-renderer:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-image-renderer:latest
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana-image-renderer:latest
+        docker pull  apache/doris:doris-fe-2.1.7
+        docker tag apache/doris:doris-fe-2.1.7 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-fe-2.1.7
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-fe-2.1.7
 
-        docker pull  grafana/grafana:latest
-        docker tag grafana/grafana:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:latest
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/grafana:latest
+        docker pull apache/doris:doris-be-2.1.7
+        docker tag apache/doris:doris-be-2.1.7 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-be-2.1.7
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-be-2.1.7
 
 
 
