@@ -76,13 +76,13 @@ jobs:
        
 
 
-        docker pull  apache/doris:doris-fe-2.1.7
-        docker tag apache/doris:doris-fe-2.1.7 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-fe-2.1.7
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-fe-2.1.7
+        docker pull apache/doris:2.0.0_alpha-be-x86_64
+        docker tag apache/doris:2.0.0_alpha-be-x86_64 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:2.0.0_alpha-be-x86_64
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:2.0.0_alpha-be-x86_64
 
-        docker pull apache/doris:doris-be-2.1.7
-        docker tag apache/doris:doris-be-2.1.7 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-be-2.1.7
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:doris-be-2.1.7
+        docker pull apache/doris:2.0.0_alpha-fe-x86_64
+        docker tag apache/doris:2.0.0_alpha-fe-x86_64 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:2.0.0_alpha-fe-x86_64
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:2.0.0_alpha-fe-x86_64
 
 
 
