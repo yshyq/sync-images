@@ -76,13 +76,11 @@ jobs:
        
 
 
-        docker pull flannelcni/flannel-cni-plugin:v1.1.0
-        docker tag flannelcni/flannel-cni-plugin:v1.1.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.1.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.1.0
+        docker pull alpine:3.21.2
+        docker tag alpine:3.21.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine:3.21.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine:3.21.2
 
-        docker pull flannelcni/flannel:v0.19.2
-        docker tag flannelcni/flannel:v0.19.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.19.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.19.2
+ 
 
 
 
