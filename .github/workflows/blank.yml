@@ -72,14 +72,30 @@ jobs:
         
       
    
+   
 
        
 
 
-        docker pull alpine:3.21.2
-        docker tag alpine:3.21.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine:3.21.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/alpine:3.21.2
+        docker pull jumpserver/core:v4.6.0-ce
+        docker tag jumpserver/core:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-core:v4.6.0-ce
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-core:v4.6.0-ce
+        
+        docker pull jumpserver/koko:v4.6.0-ce
+        docker tag jumpserver/koko:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-koko:v4.6.0-ce
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-koko:v4.6.0-ce
 
+        docker pull jumpserver/lion:v4.6.0-ce
+        docker tag jumpserver/lion:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-lion:v4.6.0-ce
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-lion:v4.6.0-ce
+
+        docker pull jumpserver/chen:v4.6.0-ce
+        docker tag jumpserver/chen:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-chen:v4.6.0-ce
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-chen:v4.6.0-ce
+
+        docker pull jumpserver/web:v4.6.0-ce
+        docker tag jumpserver/web:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-web:v4.6.0-ce
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-web:v4.6.0-ce
  
 
 
