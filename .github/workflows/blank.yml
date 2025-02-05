@@ -77,25 +77,11 @@ jobs:
        
 
 
-        docker pull jumpserver/nec:v4.6.0-ce
-        docker tag jumpserver/nec:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-nec:v4.6.0-ce
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-nec:v4.6.0-ce
+        docker pull redis:6.2.12
+        docker tag redis:6.2.12 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.12
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.12
         
-        docker pull jumpserver/lion:v4.6.0-ce
-        docker tag jumpserver/lion:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-lion:v4.6.0-ce
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-lion:v4.6.0-ce
 
-        docker pull jumpserver/koko:v4.6.0-ce
-        docker tag jumpserver/koko:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-koko:v4.6.0-ce
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-koko:v4.6.0-ce
-
-        # docker pull jumpserver/chen:v4.6.0-ce
-        # docker tag jumpserver/chen:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-chen:v4.6.0-ce
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-chen:v4.6.0-ce
-
-        # docker pull jumpserver/web:v4.6.0-ce
-        # docker tag jumpserver/web:v4.6.0-ce registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-web:v4.6.0-ce
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-web:v4.6.0-ce
  
 
         
