@@ -98,11 +98,6 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jumpserver-web:v4.6.0-ce
  
 
-+] Running 0/3
- ⠿ lion Error                                                                                                                                                                                                                               15.6s
- ⠿ celery Error                                                                                                                                                                                                                             15.6s
- ⠿ koko 
-
         
 
 
