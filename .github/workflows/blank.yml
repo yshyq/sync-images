@@ -77,8 +77,8 @@ jobs:
        
 
 
-        docker pull flannel:v0.22.2
-        docker tag flannel:v0.22.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
+        docker pull flannel/flannel:v0.22.2
+        docker tag flannel/flannel:v0.22.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
         
 
