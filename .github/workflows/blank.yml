@@ -77,9 +77,9 @@ jobs:
        
 
 
-        docker pull redis:6.2.12
-        docker tag redis:6.2.12 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.12
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6.2.12
+        docker pull flannel:v0.22.2
+        docker tag flannel:v0.22.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
         
 
  
