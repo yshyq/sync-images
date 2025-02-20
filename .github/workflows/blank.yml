@@ -77,20 +77,105 @@ jobs:
        
 
 
-        docker pull flannel/flannel:v0.22.2
-        docker tag flannel/flannel:v0.22.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
+        docker langgenius/dify-api:0.15.3
+        docker tag langgenius/dify-api:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3
         
-        docker pull flannel/flannel-cni-plugin:v1.2.0
-        docker tag flannel/flannel-cni-plugin:v1.2.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.2.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel-cni-plugin:v1.2.0
+        docker pull langgenius/dify-web:0.15.3
+        docker tag langgenius/dify-web:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
  
-        docker pull flannel/flannel:v0.22.2
-        docker tag flannel/flannel:v0.22.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/flannel:v0.22.2
+        docker pull postgres:15-alpine
+        docker tag postgres:15-alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:15-alpine
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:15-alpine
         
+        docker pull redis:6-alpine
+        docker tag redis:6-alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6-alpine
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/redis:6-alpine
 
+        docker pull langgenius/dify-sandbox:0.2.10
+        docker tag langgenius/dify-sandbox:0.2.10 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-sandbox:0.2.10
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-sandbox:0.2.10
 
+        docker pull langgenius/dify-plugin-daemon:0.0.2-local
+        docker tag langgenius/dify-plugin-daemon:0.0.2-local registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-plugin-daemon:0.0.2-local
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-plugin-daemon:0.0.2-local
+
+        docker pull ubuntu/squid:latest
+        docker tag ubuntu/squid:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ubuntu-squid:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ubuntu-squid:latest
+
+        docker pull certbot/certbot
+        docker tag certbot/certbot registry.cn-hangzhou.aliyuncs.com/mytest_docker123/certbot
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/certbot
+
+        docker pull nginx:latest
+        docker tag nginx:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nginx:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nginx:latest
+
+        docker pull semitechnologies/weaviate:1.19.0
+        docker tag semitechnologies/weaviate:1.19.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/semitechnologies-weaviate:1.19.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/semitechnologies-weaviate:1.19.0
+
+        docker pull langgenius/qdrant:v1.7.3
+        docker tag langgenius/qdrant:v1.7.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-qdrant:v1.7.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-qdrant:v1.7.3
+
+        docker pull pgvector/pgvector:pg16
+        docker tag pgvector/pgvector:pg16 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pgvector-pgvector:pg16
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pgvector-pgvector:pg16
+
+        docker pull tensorchord/pgvecto-rs:pg16-v0.3.0
+        docker tag tensorchord/pgvecto-rs:pg16-v0.3.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/tensorchord-pgvecto-rs:pg16-v0.3.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/tensorchord-pgvecto-rs:pg16-v0.3.0
+  
+        docker pull ghcr.io/chroma-core/chroma:0.5.20
+        docker tag ghcr.io/chroma-core/chroma:0.5.20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chroma:0.5.20
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chroma:0.5.20
+  
+        docker pull quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
+        docker tag quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oceanbase-ce:4.3.3.0-100000142024101215
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oceanbase-ce:4.3.3.0-100000142024101215
+  
+        docker pull container-registry.oracle.com/database/free:latest
+        docker tag container-registry.oracle.com/database/free:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/database-free:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/database-free:latest
+  
+        docker pull quay.io/coreos/etcd:v3.5.5
+        docker tag quay.io/coreos/etcd:v3.5.5 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/etcd:v3.5.5
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/etcd:v3.5.5
+  
+        docker pull minio/minio:RELEASE.2023-03-20T20-16-18Z
+        docker tag minio/minio:RELEASE.2023-03-20T20-16-18Z registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-03-20T20-16-18Z
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-03-20T20-16-18Z
+  
+        docker pull milvusdb/milvus:v2.5.0-beta
+        docker tag milvusdb/milvus:v2.5.0-beta registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.0-beta
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.0-beta
+  
+        docker pull opensearchproject/opensearch:latest
+        docker tag opensearchproject/opensearch:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/opensearch:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/opensearch:latest
+  
+        docker pull opensearchproject/opensearch-dashboards:latest
+        docker tag opensearchproject/opensearch-dashboards:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/opensearch-dashboards:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/opensearch-dashboards:latest
+  
+        docker pull myscale/myscaledb:1.6.4
+        docker tag myscale/myscaledb:1.6.4 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/myscaledb:1.6.4
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/myscaledb:1.6.4
+  
+        docker pull docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+        docker tag docker.elastic.co/elasticsearch/elasticsearch:8.14.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/elasticsearch:8.14.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/elasticsearch:8.14.3
+  
+        docker pull docker.elastic.co/kibana/kibana:8.14.3
+        docker tag docker.elastic.co/kibana/kibana:8.14.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kibana:8.14.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kibana:8.14.3
+  
+        docker pull downloads.unstructured.io/unstructured-io/unstructured-api:latest
+        docker tag downloads.unstructured.io/unstructured-io/unstructured-api:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/unstructured-api:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/unstructured-api:latest
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
