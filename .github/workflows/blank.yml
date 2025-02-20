@@ -177,6 +177,11 @@ jobs:
         docker tag downloads.unstructured.io/unstructured-io/unstructured-api:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/unstructured-api:latest
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/unstructured-api:latest
 
+        docker pull infiniflow/ragflow:v0.16.0-slim
+        docker tag infiniflow/ragflow:v0.16.0-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        
+
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
