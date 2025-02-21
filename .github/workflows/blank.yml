@@ -180,25 +180,25 @@ jobs:
 
 
 
-        # docker pull infiniflow/ragflow:v0.16.0-slim
-        # docker tag infiniflow/ragflow:v0.16.0-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        docker pull infiniflow/ragflow:v0.16.0-slim
+        docker tag infiniflow/ragflow:v0.16.0-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
         
-        # docker pull edwardelric233/ragflow:oc9
-        # docker tag edwardelric233/ragflow:oc9 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
+        docker pull edwardelric233/ragflow:oc9
+        docker tag edwardelric233/ragflow:oc9 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
 
-        # docker pull infiniflow/infinity:v0.6.0-dev3
-        # docker tag infiniflow/infinity:v0.6.0-dev3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
+        docker pull infiniflow/infinity:v0.6.0-dev3
+        docker tag infiniflow/infinity:v0.6.0-dev3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
         
-        docker pull mysql:8.0.39
-        docker tag mysql:8.0.39 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
+        # docker pull mysql:8.0.39
+        # docker tag mysql:8.0.39 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
 
-        docker pull quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
-        docker tag quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-12-20T01-00-02Z
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-12-20T01-00-02Z
+        # docker pull quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
+        # docker tag quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-12-20T01-00-02Z
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/minio:RELEASE.2023-12-20T01-00-02Z
         
         # docker pull valkey/valkey:8
         # docker tag valkey/valkey:8 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/valkey:8
