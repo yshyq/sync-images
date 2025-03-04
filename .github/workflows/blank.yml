@@ -75,13 +75,13 @@ jobs:
    
 
        
-        docker pull langgenius/dify-web:release-0.15.3-fix1
-        docker tag langgenius/dify-web:release-0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:release-0.15.3-fix1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:release-0.15.3-fix1
+        docker pull apache/doris:be-2.1.8.1
+        docker tag apache/doris:be-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
 
-        docker pull langgenius/dify-api:release-0.15.3-fix1
-        docker tag langgenius/dify-api:release-0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:release-0.15.3-fix1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:release-0.15.3-fix1
+        docker pull apache/doris:fe-2.1.8.1
+        docker tag apache/doris:fe-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:doris:fe-2.1.8.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:doris:fe-2.1.8.1
         
 
  
