@@ -77,13 +77,13 @@ jobs:
        
 
 
-        # docker pull langgenius/dify-api:0.15.3
-        # docker tag langgenius/dify-api:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3
+        docker pull langgenius/dify-api:0.15.3-fix1
+        docker tag langgenius/dify-api:0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3-fix1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3-fix1
         
-        # docker pull langgenius/dify-web:0.15.3
-        # docker tag langgenius/dify-web:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
-        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
+        docker pull langgenius/dify-web:0.15.3
+        docker tag langgenius/dify-web:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3-fix1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
  
         # docker pull postgres:15-alpine
         # docker tag postgres:15-alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:15-alpine
@@ -180,18 +180,11 @@ jobs:
 
 
 
-        docker pull infiniflow/ragflow:v0.16.0-slim
-        docker tag infiniflow/ragflow:v0.16.0-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        # docker pull infiniflow/ragflow:v0.16.0-slim
+        # docker tag infiniflow/ragflow:v0.16.0-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-ragflow:v0.16.0-slim
         
-        docker pull edwardelric233/ragflow:oc9
-        docker tag edwardelric233/ragflow:oc9 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/edwardelric233-ragflow:oc9
 
-        docker pull infiniflow/infinity:v0.6.0-dev3
-        docker tag infiniflow/infinity:v0.6.0-dev3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/infiniflow-infinity:v0.6.0-dev3
-        
         # docker pull mysql:8.0.39
         # docker tag mysql:8.0.39 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:8.0.39
