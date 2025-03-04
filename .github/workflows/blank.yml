@@ -75,13 +75,13 @@ jobs:
    
 
        
-        docker pull apache/doris:be-2.1.8.1
-        docker tag apache/doris:be-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
+        # docker pull apache/doris:be-2.1.8.1
+        # docker tag apache/doris:be-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:be-2.1.8.1
 
         docker pull apache/doris:fe-2.1.8.1
-        docker tag apache/doris:fe-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:doris:fe-2.1.8.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:doris:fe-2.1.8.1
+        docker tag apache/doris:fe-2.1.8.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:fe-2.1.8.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:fe-2.1.8.1
         
 
  
