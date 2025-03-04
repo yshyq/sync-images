@@ -75,15 +75,15 @@ jobs:
    
 
        
+        docker pull langgenius/dify-web:release-0.15.3-fix1
+        docker tag langgenius/dify-web:release-0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:release-0.15.3-fix1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:release-0.15.3-fix1
 
-
-        docker pull langgenius/dify-api:0.15.3-fix1
-        docker tag langgenius/dify-api:0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3-fix1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:0.15.3-fix1
+        docker pull langgenius/dify-api:release-0.15.3-fix1
+        docker tag langgenius/dify-api:release-0.15.3-fix1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:release-0.15.3-fix1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-api:release-0.15.3-fix1
         
-        docker pull langgenius/dify-web:0.15.3
-        docker tag langgenius/dify-web:0.15.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3-fix1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/langgenius-dify-web:0.15.3
+
  
         # docker pull postgres:15-alpine
         # docker tag postgres:15-alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:15-alpine
