@@ -66,9 +66,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-        docker pull percona/percona-xtrabackup:2.4.29
-        docker tag percona/percona-xtrabackup:2.4.29 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/percona-xtrabackup:2.4.29
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/percona-xtrabackup:2.4.29
+        docker pull percona/percona-xtrabackup:8.0
+        docker tag percona/percona-xtrabackup:8.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/percona-xtrabackup:8.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/percona-xtrabackup:8.0
         
       
    
