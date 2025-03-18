@@ -66,10 +66,10 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-        docker pull ansible/ansible:ubuntu1404
+        docker pull openjdk:24
 
-        docker tagansible/ansible:ubuntu1404 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ansible:ubuntu1404
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ansible:ubuntu1404
+        docker tag openjdk:24 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:24
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:24
         
       
    
