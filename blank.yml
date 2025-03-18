@@ -66,10 +66,10 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-        docker pull openjdk:25-jdk-bookworm
+        docker pull openjdk:24
 
-        docker tag openjdk:25-jdk-bookworm registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:25-jdk-bookworm
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:25-jdk-bookworm
+        docker tag openjdk:24 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:24
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:24
         
       
    
