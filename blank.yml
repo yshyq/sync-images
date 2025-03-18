@@ -68,7 +68,7 @@ jobs:
 
         docker pull openjdk:25-jdk-bookworm
 
-        docker openjdk:25-jdk-bookworm registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:25-jdk-bookworm
+        docker tag openjdk:25-jdk-bookworm registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:25-jdk-bookworm
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openjdk:25-jdk-bookworm
         
       
