@@ -66,13 +66,13 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-        docker pull milvusdb/milvus:v2.5.6
-        docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
+        # docker pull milvusdb/milvus:v2.5.6
+        # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
         docker pull apachepulsar/pulsar:3.0.7
-        docker tag mapachepulsar/pulsar:3.0.7  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pulsar:3.0.7
+        docker tag apachepulsar/pulsar:3.0.7  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pulsar:3.0.7
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/pulsar:3.0.7
         
       
