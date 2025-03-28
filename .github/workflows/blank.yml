@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull apache/kafka:4.0.0
-        docker tag apache/kafka:4.0.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kafka:4.0.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kafka:4.0.0
+        docker pull bitnami/kafka:3.5.0
+        docker tag bitnami/kafka:3.5.0  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kafka:3.5.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/kafka:3.5.0
         
       
    
