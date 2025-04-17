@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull   gcr.io/cadvisor/cadvisor:latest
-        docker tag   gcr.io/cadvisor/cadvisor:latest  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cadvisor:latest
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cadvisor:latest
+        docker pull   python:3.10-slim
+        docker tag   python:3.10-slim  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:3.10-slim
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:3.10-slim
         
       
    
