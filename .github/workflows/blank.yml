@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull  rabbitmq:3.13.7-management
-        docker tag rabbitmq:3.13.7-management  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/rabbitmq:3.13.7-management
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/rabbitmq:3.13.7-management
+        docker pull  python:2.7-slim
+        docker tag python:2.7-slim  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:2.7-slim
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:2.7-slim
         
       
    
