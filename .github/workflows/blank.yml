@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull ghcr.io/nuxeo/nuxeo:2023
-        docker tag ghcr.io/nuxeo/nuxeo:2023  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo:2023
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo:2023
+        docker pull nuxeo/nuxeo
+        docker tag nuxeo/nuxeo  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo
    
    
 
