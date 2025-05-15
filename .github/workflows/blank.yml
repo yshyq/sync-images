@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull docker.packages.nuxeo.com/nuxeo/nuxeo-web-ui/dev:3.0.1-SNAPSHOT
-        docker tag docker.packages.nuxeo.com/nuxeo/nuxeo-web-ui/dev:3.0.1-SNAPSHOT  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo-web-ui-dev:3.0.1-SNAPSHOT
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nuxeo-web-ui-dev:3.0.1-SNAPSHOT
+        docker pull oraclelinux:9-slim-fips
+        docker tag oraclelinux:9-slim-fips  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oraclelinux:9-slim-fips
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oraclelinux:9-slim-fips
    
    
 
