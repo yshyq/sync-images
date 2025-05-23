@@ -71,9 +71,10 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull oraclelinux:9-slim-fips
-        docker tag oraclelinux:9-slim-fips  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oraclelinux:9-slim-fips
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/oraclelinux:9-slim-fips
+        docker pull moelin/1panel:v1.10.29-lts
+
+        docker tag moelin/1panel:v1.10.29-lts  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/1panel:v1.10.29-lts
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/1panel:v1.10.29-lts
    
    
 
