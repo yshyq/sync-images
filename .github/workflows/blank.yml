@@ -72,9 +72,8 @@ jobs:
 
 
         docker pull mghcr.io/windmill-labs/windmill:main
-
-        docker tag ghcr.io/windmill-labs/windmill:main  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill-labs/windmill:main
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill-labs/windmill:main
+        docker tag ghcr.io/windmill-labs/windmill:main  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill:main
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill:main
    
         docker pull ghcr.io/windmill-labs/windmill-lsp:latest
         docker tag ghcr.io/windmill-labs/windmill-lsp:latest  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill-lsp:latest
