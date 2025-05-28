@@ -71,7 +71,7 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull mghcr.io/windmill-labs/windmill:main
+        docker pull ghcr.io/windmill-labs/windmill:main
         docker tag ghcr.io/windmill-labs/windmill:main  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill:main
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/windmill:main
    
