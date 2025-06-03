@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull postgres:16
-        docker tag postgres:16  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:16
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:16
+        docker pull jenkins/jenkins:2.504.2-lts
+        docker tag jenkins/jenkins:2.504.2-lts registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jenkins:2.504.2-lts
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jenkins:2.504.2-lts
    
 
 
