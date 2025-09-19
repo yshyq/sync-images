@@ -72,7 +72,7 @@ jobs:
 
         docker pull apache/doris:operator-latest
 
-        docker tag oapache/doris:operator-latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:operator-latest
+        docker tag apache/doris:operator-latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:operator-latest
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/doris:operator-latest
 
 
