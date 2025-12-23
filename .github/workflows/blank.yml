@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull nvidia/cuda:13.1.0-runtime-ubuntu22.04
+        docker pull nvcr.io/nvidia/k8s-device-plugin:v0.14.1
 
-        docker tag nvidia/cuda:13.1.0-runtime-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia-cuda:13.1.0-runtime-ubuntu22.04
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia-cuda:13.1.0-runtime-ubuntu22.04
+        docker tag nvcr.io/nvidia/k8s-device-plugin:v0.14.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia-k8s-device-plugin:v0.14.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia-k8s-device-plugin:v0.14.1
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
