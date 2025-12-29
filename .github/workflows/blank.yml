@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull gitlab/gitlab-ce:14.10.5-ce.0
+        docker pull goharbor/harbor-core:v2.5.3
 
-        docker tag gitlab/gitlab-ce:14.10.5-ce.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/gitlab-ce:14.10.5-ce.0
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/gitlab-ce:14.10.5-ce.0
+        docker tag goharbor/harbor-core:v2.5.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-core:v2.5.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-core:v2.5.3
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
