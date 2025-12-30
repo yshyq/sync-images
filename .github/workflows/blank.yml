@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull goharbor/harbor-jobservice:v2.5.3
+        docker pull goharbor/hregistry-photon:v2.8.0-patch-2819-v2.5.3
 
-        docker tag goharbor/harbor-jobservice:v2.5.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-jobservice:v2.5.3
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/harbor-jobservice:v2.5.3
+        docker tag goharbor/registry-photon:v2.8.0-patch-2819-v2.5.3 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry-photon:v2.8.0-patch-2819-v2.5.3
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry-photon:v2.8.0-patch-2819-v2.5.3
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
