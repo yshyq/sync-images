@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull goharbor/registry-photon:v2.14.1-dev
+        docker pull portainer/portainer-ee:latest
 
-        docker tag  goharbor/registry-photon:v2.14.1-dev registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry-photon:v2.14.1-dev
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/registry-photon:v2.14.1-dev
+        docker tag  portainer/portainer-ee:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/portainer-ee:latest 
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/portainer-ee:latest 
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
