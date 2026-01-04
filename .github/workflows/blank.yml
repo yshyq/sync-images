@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull portainer/portainer-ce:lts
+        docker pull maven:3.8.4-openjdk-17
 
-        docker tag  portainer/portainer-ce:lts registry.cn-hangzhou.aliyuncs.com/mytest_docker123/portainer-ce:lts
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/portainer-ce:lts
+        docker tag  maven:3.8.4-openjdk-17 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/maven:3.8.4-openjdk-17
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/maven:3.8.4-openjdk-17
 
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
