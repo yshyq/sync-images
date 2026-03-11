@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull postgres:18.1
+        docker pull node:22.22.1
 
-        docker tag  postgres:18.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:18.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgres:18.1
+        docker tag  node:22.22.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:22.22.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:22.22.1
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
         # skopeo copy --all docker://core:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/core:v4.1.0-ce
