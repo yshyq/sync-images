@@ -75,9 +75,9 @@ jobs:
         docker tag  ghcr.io/cloudnative-pg/cloudnative-pg:1.28.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.28.1
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.28.1
 
-        docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
-        docker tag  ghcr.io/cloudnative-pg/postgresql:14.10-20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
+        # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
+        # docker tag  ghcr.io/cloudnative-pg/postgresql:14.10-20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
+        # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
 
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
