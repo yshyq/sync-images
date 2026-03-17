@@ -70,10 +70,15 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull node:22.22.1
+        docker pull ghcr.io/cloudnative-pg/cloudnative-pg:1.22.0
 
-        docker tag  node:22.22.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:22.22.1
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:22.22.1
+        docker tag  ghcr.io/cloudnative-pg/cloudnative-pg:1.22.0 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.22.0
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.22.0
+
+        docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
+        docker tag  ghcr.io/cloudnative-pg/postgresql:14.10-20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
+
         # skopeo copy --all docker://chen:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/chen:v4.1.0-ce
 
         # skopeo copy --all docker://core:v4.1.0-ce docker://registry.cn-hangzhou.aliyuncs.com/mytest_docker123/core:v4.1.0-ce
