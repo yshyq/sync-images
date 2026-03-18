@@ -70,10 +70,10 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull ghcr.io/cloudnative-pg/postgresql:14.10
+        docker pull ghcr.io/cloudnative-pg/cloudnative-pg:1.21.6
 
-        docker tag  ghcr.io/cloudnative-pg/postgresql:14.10 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10
+        docker tag  ghcr.io/cloudnative-pg/cloudnative-pg:1.21.6 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.21.6
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.21.6
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
         # docker tag  ghcr.io/cloudnative-pg/postgresql:14.10-20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
