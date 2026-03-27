@@ -70,10 +70,15 @@ jobs:
         # docker tag milvusdb/milvus:v2.5.6  registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
-        docker pull ghcr.io/cloudnative-pg/cloudnative-pg:1.21.6
+        docker pull docker.io/calico/node:v3.28.1
 
-        docker tag  ghcr.io/cloudnative-pg/cloudnative-pg:1.21.6 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.21.6
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cloudnative-pg:1.21.6
+        docker tag  docker.io/calico/node:v3.28.1 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.28.1
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-node:v3.28.1\
+
+        docker pull docker.io/calico/cni:v3.24.6
+
+        docker tag  docker.io/calico/cni:v3.24.6 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.6
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/calico-cni:v3.24.6
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
         # docker tag  ghcr.io/cloudnative-pg/postgresql:14.10-20 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/postgresql:14.10-20
