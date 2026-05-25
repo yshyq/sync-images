@@ -66,10 +66,11 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/mysql:5.7
 
 
-        docker pull node:20-alpine
+        docker pull ollama/ollama:latest
+        
 
-        docker tag node:20-alpine registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:20-alpine
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/node:20-alpine
+        docker tag ollama/ollama:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ollama:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ollama:latest
         
       
    
