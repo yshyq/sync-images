@@ -67,8 +67,6 @@ jobs:
 
 
         docker pull ollama/ollama:latest
-        
-
         docker tag ollama/ollama:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ollama:latest
         docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ollama:latest
         
