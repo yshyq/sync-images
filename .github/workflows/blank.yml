@@ -72,8 +72,8 @@ jobs:
 
 
         docker pull openclaw/openclaw:latest
-        docker tag openclaw/openclaw:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openclaw/openclaw:latest
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openclaw/openclaw:latest
+        docker tag openclaw/openclaw:latest registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openclaw:latest
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/openclaw:latest
 
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
