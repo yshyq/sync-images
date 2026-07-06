@@ -71,9 +71,9 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull python:3.12-slim
-        docker tag python:3.12-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:3.12-slim
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/python:3.12-slim
+        docker pull sonarsource/sonar-scanner-cli
+        docker tag sonarsource/sonar-scanner-cli registry.cn-hangzhou.aliyuncs.com/mytest_docker123/sonar-scanner-cli
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/sonar-scanner-cli
 
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
