@@ -72,8 +72,8 @@ jobs:
 
 
         docker pull nvidia/cuda:12.1.0-runtime-ubuntu22.04
-        docker tag nvidia/cuda:12.1.0-runtime-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia/cuda:12.1.0-runtime-ubuntu22.04
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/nvidia/cuda:12.1.0-runtime-ubuntu22.04
+        docker tag nvidia/cuda:12.1.0-runtime-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cuda:12.1.0-runtime-ubuntu22.04
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/cuda:12.1.0-runtime-ubuntu22.04
 
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
