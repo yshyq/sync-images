@@ -73,8 +73,8 @@ jobs:
 
         docker pull ubuntu/jdk:17-24.04_stable
 
-        docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jdk:17-24.04_stable
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/jdk:17-24.04_stable
+        docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ubuntu-jdk:17-24.04_stable
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/ubuntu-jdk:17-24.04_stable
 
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
