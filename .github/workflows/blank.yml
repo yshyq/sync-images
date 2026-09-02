@@ -71,10 +71,11 @@ jobs:
         # docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/milvus:v2.5.6
 
 
-        docker pull yanwk/comfyui-boot:cu126-slim
+        docker pull alterway/keepalived:1.2
 
-        docker tag yanwk/comfyui-boot:cu126-slim registry.cn-hangzhou.aliyuncs.com/mytest_docker123/comfyui-boot:cu126-slim
-        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/comfyui-boot:cu126-slim
+
+        docker tag alterway/keepalived:1.2 registry.cn-hangzhou.aliyuncs.com/mytest_docker123/keepalived:1.2
+        docker push registry.cn-hangzhou.aliyuncs.com/mytest_docker123/keepalived:1.2
 
 
         # docker pull ghcr.io/cloudnative-pg/postgresql:14.10-20
